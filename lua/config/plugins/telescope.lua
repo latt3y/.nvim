@@ -6,11 +6,5 @@ return {
       'nvim-lua/plenary.nvim',
       { 'nvim-telescope/telescope-fzf-native.nvim', build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release' }
     },
-    -- for ignoring .git files etc, install ripgrep
-    -- config = {
-    --     defaults = {
-    --       file_ignore_patterns = {".git/", ".cache", "%.o", "%.a", "%.out", "%.class", "%.pdf", "%.mkv", "%.mp4", "%.zip", "node_modules" }
-    --     }
-    -- }
   }
 }

@@ -24,7 +24,6 @@ return {
           lsp.lua_ls.setup { capabilities = capabilities }
           lsp.ts_ls.setup { capabilities = capabilities }
           lsp.clangd.setup { capabilities = capabilities }
-          lsp.sqls.setup { capabilities = capabilities }
       end
     }
   },
